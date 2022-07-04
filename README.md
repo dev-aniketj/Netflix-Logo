@@ -9,7 +9,7 @@ Please fork this repository and contribute back. Any contributions, large or sma
 
 ## Authors
 
-- [@aniketjain8441](https://github.com/ExpertAniket)
+- [@AniketJain](https://github.com/ExpertAniket/)
 
 ## Buy me a Coffee
 
