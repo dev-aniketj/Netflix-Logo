@@ -1,67 +1,72 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
 }
 
 .netflix {
-    position: relative;
-    width: 360px;
-    height: 520px;
-    overflow: hidden;
-    transform: scale(.8);
+  position: relative;
+  width: 360px;
+  height: 520px;
+  overflow: hidden;
+  transform: scale(0.8);
 }
 
 .netflix span {
-    position: absolute;
-    top: 0;
-    width: 120px;
-    height: 100%;
-    background: #fff;
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 100%;
+  background: #fff;
 }
 
 .netflix span:nth-child(1) {
-    background: #b00612;
-    left: 0;
+  background: #b00612;
+  left: 0;
 }
 
 .netflix span:nth-child(2) {
-    background: #e50815;
-    left: 0;
-    z-index: 1;
-    transform-origin: top left;
-    transform: skewX(25deg);
-    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+  background: #e50815;
+  left: 0;
+  z-index: 1;
+  transform-origin: top left;
+  transform: skewX(25deg);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 1);
 }
 
 .netflix span:nth-child(3) {
-    background: #b00612;
-    right: 0;
+  background: #b00612;
+  right: 0;
 }
 
 h3 {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: sans-serif;
-    color: white;
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 10px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 .netflix :after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300%;
-    height: 100%;
-    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75));
-    z-index: 2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.75)
+  );
+  z-index: 2;
 }
